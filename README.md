@@ -1,10 +1,29 @@
-# Getting Started with TestAI App
+# Getting Started with the test.ai App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Test.ai builds AI-powered software test automation tools.\
+
+This project is a web application for customers. It allows them to view metrics relating to the testing of their application.
+Such metrics include:
+
+- CPU Usage
+- Application Launch Time
+- RAM USAGE
+
+## Pre-requisites
+
+To install the proper dependencies for running the application, please ensure you have:
+
+- NPM version 6.14.11 or above
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Downloads all of the required dependencies to run the app.\
+
+NOTE: This must be ran before trying to start the application. Errors will occur otherwise.\
 
 ### `npm start`
 
@@ -25,3 +44,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Troubleshooting
+
+If you have any issues, please contact our lead engineer:
+
+Laura Simonetta
+(315) 806 - 5825
+lsimonetta@gmail.com

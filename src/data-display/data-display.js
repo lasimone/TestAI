@@ -79,7 +79,7 @@ class DataDisplay extends Component {
           <div className="graphs">
             
             <div className="graph">
-              <div className="graph-label">CPU Timings (s)</div>
+              <div className="graph-label">CPU Usage</div>
               <ResponsivePie height={400} data={cpuData} animate={true} margin={{top: 50, right: 80, bottom: 50, left: 80}}
               colors={{ scheme: 'pastel1' }}/>
             </div>
