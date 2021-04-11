@@ -1,0 +1,106 @@
+.data-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-name {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.test-case {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin: 8px 16px;
+    background-color: #FFF8DC;
+}
+
+.test-case-name {
+    margin: 0 auto 8px;
+    text-transform: uppercase;
+}
+
+.test-case-status {
+    margin: auto;
+    display: flex;
+}
+
+.status-block {
+    width: 16px;
+    height: 16px;
+    margin: auto 8px auto 0;
+    background-color: red;
+}
+
+.passed {
+    background-color: green;
+}
+
+.status-text {
+    margin: auto;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.step-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard {
+    display: flex;
+}
+
+/* Make this height take up the remainder */
+.screenshot {
+    height: 60vh;
+}
+
+.step-name {
+    margin: 8px auto;
+    display: flex;
+}
+
+.step-name-title {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.graphs {
+    display: flex;
+    width: 100%;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.graph-label {
+    margin: 0 auto;
+}
+
+.test-selector {
+    display: flex;
+    margin: 8px auto;
+}
+
+.test-selector-title {
+    margin: auto 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.test-dropdown {
+    width: fit-content;
+}
+
+.no-data {
+    margin: 16px auto;
+}
